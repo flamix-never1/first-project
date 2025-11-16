@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+}
+.menu-btn{
+  color: white;
+
+  position: absolute;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  position: absolute;
+}
+li{
+    color: gray;
+    list-style: none;
+}
+li:hover{
+    transition: 0.5s;
+    color: #CC9894;
+}
+aside{
+    display: flex;
+    margin-left: 15%;
+}
+ul{
+    display: flex;
+    gap: 36px;
+    font-family: Inter-Regular;
+    font-size: 18px;
+}
+nav{
+    margin-left: 48.5%;
+    margin-top: 3%;
+}
+.image img{
+    width: 930px;
+    margin-left: 15%;
+}
+.yozuv{
+    background-color: #00001A;
+    width: 350px;
+    height: 560px;
+    margin-left: 66%;
+    margin-top: -417px;
+    color: white;
+}
+.w3{
+    margin-top: 10px;
+}
+.r{
+    margin-left: 5px;
+    padding: 20px;
+}
+.h2{
+    margin-top: -50px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h2:hover{
+    color: orange;
+}
+.w3 p{
+    color: gray;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.r{
+        margin-left: -1px;
+        margin-top: 20px;
+}
+.l{
+    background-color: grey;
+    height:1px;
+    width: 280px;
+    margin-left: 20px;
+}
+.ka{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.w3 p{
+    margin-left: 25px;
+}
+.t{
+    margin-top: -15px;
+}
+hr{
+    color: gray;
+}
+.top{
+    display: flex;
+    gap: 100px;
+    margin-top: -185px;
+    margin-left: 290px;
+}
+.top button{
+    background-color: #e82b16;
+    color: black;
+    font-size: 17px;
+    width: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+}
+.top button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+}
+.p p{
+    initial-letter: 5px;
+    color: #636265;
+    line-height: 22px;
+    margin-top: 40px;
+}
+.p{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+footer {
+    display: flex;
+}
+.j{
+    display: flex;
+}
+.k{
+    display: block;
+    margin-left: 60px;
+}
+.k p{
+    line-height: 20px;
+    color: #636265;
+}
+.j img{
+    width: 150px;
+    height: 170px;
+    margin-top: 22px;
+}
+.da{
+    margin-top: -20px;
+}
+.d{
+    color: #EC5F59;
+    font-size: 38px;
+}
+footer article{
+     display: flex;
+     gap: 50px;
+     margin-top: 20px;
+     margin-left: 280px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-left: 7%;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .image img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .yozuv {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .top h2 {
+    font-size: 36px;
+  }
+
+  .top button {
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .p {
+    margin: 0;
+    margin-top: -60px;
+  }
+
+  footer {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  footer article {
+    flex-direction: column;
+    margin: 0;
+    gap: 40px;
+  }
+
+  .j {
+    align-items: center;
+    display: flex;
+    padding: 50px;
+
+  }
+
+  .j img {
+    width: 40%;
+    margin-left: -20px;
+    height: auto;
+  }
+
+  .k {
+    margin-left: 5%;
+  }
+
+  .k p {
+    line-height: 22px;
+    font-size: 15px;
+  }
+
+ h2, p {
+    text-align: center;
+  }
+  .ul{
+    display: none;
+  }
+  .l{
+    width: 90%;
+  }
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.menu-btn {
+    font-size: 32px;
+    padding: 25px 15px;
+    background: white;
+    color: black;
+    cursor: pointer;  
+    top: 15px;
+    right: 15px;
+    z-index: 99999;    
+    border-radius: 5px;
+}
+
+.menu{
+    width: 250px;
+    height: 100vh;
+    background: white;
+    position: fixed;   
+    top: 0;
+    right: -250px;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 99998;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 15px 20px;
+}
+
+.menu ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu.active {
+    right: 0;
+}
+
+
+}
